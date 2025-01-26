@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "297645474572",
+    "project_id": "belajarcrud-30bb5",
+    "storage_bucket": "belajarcrud-30bb5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297645474572:android:2732f5ffe6da8813dcff29",
+        "android_client_info": {
+          "package_name": "com.example.slicing_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297645474572-qqr7aqb06kqe50pfuk24cqvk646s5uho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK5Uk2Yiv_dfhNsay_Yr8HQ3i-Hr8kSbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297645474572-qqr7aqb06kqe50pfuk24cqvk646s5uho.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "297645474572-0g44cjva0ejc48792iu8cph3bjfv6vnr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.belajarcurd"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:slicing_1/screen/anime_list/list_anime.dart';
 import 'package:slicing_1/screen/chat_list/chat_list.dart';
-import 'package:slicing_1/screen/chat_screen/chat_screen.dart';
 import 'package:slicing_1/screen/profile_screen/profile_screen.dart';
 
 class BottomNavigation extends StatefulWidget {

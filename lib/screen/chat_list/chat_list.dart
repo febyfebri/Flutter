@@ -14,6 +14,9 @@ class _ChatListState extends State<ChatList> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Chats'),
+        actions: [
+          IconButton(onPressed: () {}, icon: Icon(Icons.add))
+        ],
         automaticallyImplyLeading: false,
       ),
       body: ListView.builder(

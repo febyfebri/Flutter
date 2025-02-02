@@ -45,6 +45,7 @@ dependencies:
   chat_bubbles: ^1.7.0
   video_player: ^2.9.2
   youtube_player_flutter: ^9.1.1
+  cloud_firestore: ^5.6.2
 
 dev_dependencies:
   flutter_test:

@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
 class ChatMessage {
@@ -14,4 +15,12 @@ class ChatMessage {
     this.isSender = true, 
     required this.textStyle,
   });
+}
+
+class Message {
+  final String sender;
+  final String message;
+  final Timestamp timestamp;
+
+  Message({required this.sender, required this.message, required this.timestamp});
 }

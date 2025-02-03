@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:slicing_1/components/bottom_navigation.dart';
+import 'package:slicing_1/network/firestore.dart';
 
 
 class LoginScreen extends StatefulWidget {
@@ -36,6 +37,7 @@ Future<UserCredential> signInWithGoogle() async {
     final UserCredential userCredential =
         await FirebaseAuth.instance.signInWithCredential(credential);
 
+    await saveUser(userCredential.user!);
     Navigator.push(
       context,
       MaterialPageRoute(builder: (context)=> BottomNavigation(isLoggedIn: true,))
